@@ -1,9 +1,12 @@
 # Notas do autor
 Fiz duas versões (uma usando PHP puro, e outra usando o framework Laravel).
+
 As duas funcionam perfeitamente, apenas sendo necessário criar o banco de dados.
 
 Para criar o banco:
+
   ● Versão PHP Puro: importe o arquivo banco.sql em um servidor MySQL local (usei o incluso no XAMPP)
+
   ● Versão Laravel: com o servidor MySQL iniciado, execute o comando "php artisan migrate" na raiz do projeto, ou importe o arquivo banco.sql manualmente.
 
 # PHPtest
