@@ -1,4 +1,4 @@
-function SearchCEP(element)
+function SearchCEP()
 {
     //Ler CEP e remover caracteres que não são numeros
     let cep = document.getElementById("cep_field").value;

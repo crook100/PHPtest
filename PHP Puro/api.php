@@ -2,7 +2,6 @@
 
     if(!empty($_GET['cep']))
     {
-
         $cep = $_GET['cep'];
 
         $mysqli = new mysqli("localhost", "root", "", "banco");
@@ -65,6 +64,7 @@
                         header("HTTP/1.1 400 Bad Request");
                         echo "CEP não encontrado";
                         exit;
+                        break;
                 }
             }
               
